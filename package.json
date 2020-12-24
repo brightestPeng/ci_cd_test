@@ -1,0 +1,19 @@
+{
+  "name": "ci_cd_test",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "author": "wenjia_peng <wenjia_peng@kingdee.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-router": "^10.0.0"
+  }
+}
